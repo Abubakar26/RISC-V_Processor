@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/installed ise/ProcessorRISC/processortb_isim_beh.exe" -prj "D:/installed ise/ProcessorRISC/processortb_beh.prj" "work.processortb" "work.glbl" 

@@ -1,0 +1,51 @@
+Running: D:\installedise\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/installed ise/ProcessorRISC/processortb_isim_beh.exe -prj D:/installed ise/ProcessorRISC/processortb_beh.prj work.processortb work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/REGFILE.v" into library work
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/mux.v" into library work
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/InstructionMEM.v" into library work
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/counter.v" into library work
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/ALU.v" into library work
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/processor.v" into library work
+Analyzing Verilog file "D:/installed ise/ProcessorRISC/processortb.v" into library work
+Analyzing Verilog file "D:/installedise/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 75: Size mismatch in connection of port <din2>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 76: Size mismatch in connection of port <dout>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 78: Size mismatch in connection of port <sel>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processortb.v" Line 35: Size mismatch in connection of port <out>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 30: Size mismatch in connection of port <reset>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 38: Size mismatch in connection of port <wren>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 46: Size mismatch in connection of port <data>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 47: Size mismatch in connection of port <wren>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 48: Size mismatch in connection of port <dataout>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 49: Size mismatch in connection of port <dataout2>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 56: Size mismatch in connection of port <din>. Formal port size is 32-bit while actual signal size is 12-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 57: Size mismatch in connection of port <din2>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 58: Size mismatch in connection of port <dout>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 60: Size mismatch in connection of port <sel>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 65: Size mismatch in connection of port <datain>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 66: Size mismatch in connection of port <datain2>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 68: Size mismatch in connection of port <out>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 84: Size mismatch in connection of port <dataout>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 86: Size mismatch in connection of port <wren>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/installed ise/ProcessorRISC/processor.v" Line 87: Size mismatch in connection of port <writead>. Formal port size is 10-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 101468 KB
+Fuse CPU Usage: 358 ms
+Compiling module counter
+Compiling module BLOCKRAM
+Compiling module REGFILE
+Compiling module mux
+Compiling module ALU
+Compiling module processor
+Compiling module processortb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable D:/installed ise/ProcessorRISC/processortb_isim_beh.exe
+Fuse Memory Usage: 106060 KB
+Fuse CPU Usage: 421 ms

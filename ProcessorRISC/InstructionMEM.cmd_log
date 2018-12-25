@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "InstructionMEM.ngc" InstructionMEM.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o InstructionMEM_map.ncd InstructionMEM.ngd InstructionMEM.pcf 
+par -w -intstyle ise -ol high -mt off InstructionMEM_map.ncd InstructionMEM.ncd InstructionMEM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml InstructionMEM.twx InstructionMEM.ncd -o InstructionMEM.twr InstructionMEM.pcf 
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "InstructionMEM.ngc" InstructionMEM.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o InstructionMEM_map.ncd InstructionMEM.ngd InstructionMEM.pcf 
+par -w -intstyle ise -ol high -mt off InstructionMEM_map.ncd InstructionMEM.ncd InstructionMEM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml InstructionMEM.twx InstructionMEM.ncd -o InstructionMEM.twr InstructionMEM.pcf 
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "InstructionMEM.ngc" InstructionMEM.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o InstructionMEM_map.ncd InstructionMEM.ngd InstructionMEM.pcf 
+par -w -intstyle ise -ol high -mt off InstructionMEM_map.ncd InstructionMEM.ncd InstructionMEM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml InstructionMEM.twx InstructionMEM.ncd -o InstructionMEM.twr InstructionMEM.pcf 
+xst -intstyle ise -ifn "D:/installed ise/ProcessorRISC/InstructionMEM.xst" -ofn "D:/installed ise/ProcessorRISC/InstructionMEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "InstructionMEM.ngc" InstructionMEM.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o InstructionMEM_map.ncd InstructionMEM.ngd InstructionMEM.pcf 
+par -w -intstyle ise -ol high -mt off InstructionMEM_map.ncd InstructionMEM.ncd InstructionMEM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml InstructionMEM.twx InstructionMEM.ncd -o InstructionMEM.twr InstructionMEM.pcf 
+bitgen -intstyle ise -f InstructionMEM.ut InstructionMEM.ncd 

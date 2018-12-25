@@ -1,0 +1,3 @@
+verilog work "ProgramMEM.v"
+verilog work "instmem.v"
+verilog work "D:/installedise/ISE_DS/ISE//verilog/src/glbl.v"
